@@ -38,7 +38,7 @@ let getData = async () => {
 
 getData()
   .then(text => {
-    const stream = fs.createWriteStream(`${moment().format('MMM_Do_YYYY')}.txt`);
+    const stream = fs.createWriteStream(`${moment().format('h-mm-ss_MMM_Do_YYYY')}.txt`);
     stream.once('open', () => {
       stream.write(text);
       stream.end();
