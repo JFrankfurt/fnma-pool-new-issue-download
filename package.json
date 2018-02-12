@@ -1,0 +1,11 @@
+{
+  "name": "fanniemae_nightmare",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "nightmare": "^2.10.0",
+    "nodemon": "^1.14.12"
+  }
+}
