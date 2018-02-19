@@ -8,8 +8,8 @@ const n2 = Nightmare();
 let getData = async () => {
   let text = await n1
     .goto("https://mbsdisclosure.fanniemae.com/PoolTalk/index.html")
-    .type("#loginUsername", "durga@pre-rec.com")
-    .type("#loginPassword", "@Establish1")
+    .type("#loginUsername", process.argv[2])
+    .type("#loginPassword", process.argv[3])
     .click("#isTermsAndConditionsSelected")
     .click("#loginBtn")
     .wait(2000)
