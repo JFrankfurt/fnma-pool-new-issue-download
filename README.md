@@ -2,7 +2,7 @@ A super simple way to download FNMA new issue data
 
 run: 
 ```
-node index.js
+node index.js <username> <password>
 ```
 
 this will output a .txt file with the current time/date containing your data
